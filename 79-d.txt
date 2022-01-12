@@ -1,0 +1,17 @@
+inp = int(input('Enter a five digits number: '))
+x=inp
+c=10000
+d=0
+a=0
+for i in range(1,6):
+    a=inp%10
+    print('a',a)
+    inp=int(inp/10)
+    d+=a*int(c)
+    c=c/10
+    print('d',d)
+if d==x:    
+    print('yes the reverse of input',x,'is same',d)
+else:
+    print('No the reverse of input',x," is not same, its",d)
+    

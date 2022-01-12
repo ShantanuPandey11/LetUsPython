@@ -1,0 +1,15 @@
+inte = ['1','2','3','4','5','6','7','8','9','0']
+al = ['a','A','b','B','c','C','d','D','e','E','f','F','g','G','h','H','i'
+      ,'I','j','J','k','K','l','L','m','M','n','N','o','O','p','P','q','Q',
+      'r','R','s','S','t','T','u','U','v','V','W','w','x','X','y','Y','z','Z']
+      
+s = 'Nagpur-440010'
+
+aCount = 0
+nCount = 0
+for i in s:
+    if i in inte:
+        nCount+=1
+    if i in al:
+        aCount+=1
+print(nCount,aCount)
