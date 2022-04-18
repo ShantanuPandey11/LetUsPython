@@ -1,0 +1,19 @@
+from itertools import count
+import random
+a=0
+t=0
+l1=[]
+#l2=[]
+l3=[]
+for i in range(0,5):
+    l1.append(random.randrange(1,10)*10)
+print("List first",l1)
+i=0
+for index,i in enumerate(l1):
+    #print("i",l1.count(i),"index",index)
+    cn = l1.count(i)
+    #print("cn",cn)
+    while cn > 1:
+        l1.pop(index)
+        cn -=1
+print("List now",l1)

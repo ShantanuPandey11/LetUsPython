@@ -1,0 +1,15 @@
+d = (1,1,2022)
+d2=(31,6,2023)
+dt1 = d[0]
+dt2 = d2[0]
+mnth = d[1]
+mnth2 = d2[1]
+yr = d[2]
+yr2 = d2[2]
+
+print(dt1,mnth,yr,'\n',dt2,mnth2,yr2)
+d_r = dt2-dt1
+m_r = (mnth2-mnth)*30
+y_r = (yr2-yr)*365
+tD = d_r+m_r+y_r
+print('Total no of days between two are: ', tD)

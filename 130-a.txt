@@ -1,0 +1,14 @@
+s = {'any','all','toy','ball','biscuit','Ant','Brown'}
+a = set()
+b = set()
+for ele in s:
+    if ele[0] == 'a' or ele[0] == 'A':
+        a.add(ele)
+    if ele[0] == 'b' or ele[0] == 'B':
+        b.add(ele)
+
+    
+print(s)
+print(a)
+print(b)
+        

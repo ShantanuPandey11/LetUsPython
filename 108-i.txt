@@ -1,0 +1,9 @@
+words = ["yellow","green","pink","blue","grey"]
+l1=[]
+
+for index,i in enumerate(words):
+    #print(index,i)
+    a = i[0]
+    #print(a)
+    l1.append(a)
+print(l1)

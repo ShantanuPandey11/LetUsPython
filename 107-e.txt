@@ -1,0 +1,8 @@
+strlist = ["january","febuary","march"]
+i=0
+while i < len(strlist):
+    l1 = strlist.pop(0)
+    l1=l1.upper()
+    strlist.append(l1)
+    i+=1
+print(strlist)

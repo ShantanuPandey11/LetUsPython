@@ -1,0 +1,11 @@
+tem_F = [85,84,73,89,70,82]
+tem_C = []
+x=0
+i=0
+while i != len(tem_F):
+    x = tem_F[i]
+    f2c = 5/9*(x-32)
+    tem_C.append(int(f2c))
+    i+=1
+print("Temp in F",tem_F)
+print('Temp in C',tem_C)

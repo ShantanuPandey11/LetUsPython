@@ -1,0 +1,20 @@
+from itertools import count
+import random
+a=0
+t=0
+l1=[]
+#l2=[]
+#l3=[]
+for i in range(0,5):
+    l1.append(random.randrange(1,10)*10)
+print(l1)
+x= int(input("Enter a no: "))
+#l2 = [1,1,1,1,6,6,6]
+#l3+=l2
+print("Times the no apper: ",l1.count(x))
+print("The index of repeated element are: ")
+
+for a, i in enumerate(l1):
+    if x == i:
+        print(a)
+         
