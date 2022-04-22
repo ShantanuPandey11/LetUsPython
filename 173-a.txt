@@ -1,0 +1,21 @@
+#To calculate no of Capital & non-Capital strings and return as {} 
+def count_lower_upper(instr):
+    l  = 0
+    u = 0
+    lowD = {}
+    upD = {}
+    for i in instr:
+        print(i)
+        if i.islower() == True:
+            l=l+1
+            lowD[l] = i
+        elif i.isupper() == True:
+            u=u+1
+            upD[u] = i
+    return lowD,upD
+inp = input('write')
+low,up = count_lower_upper(inp)
+
+print(low)
+print('_______-----------_______')
+print(up)
