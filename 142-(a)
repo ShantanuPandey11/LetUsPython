@@ -1,0 +1,13 @@
+import matplotlib.pyplot as plt
+string = input('Enter your words: ')
+l = list(string.strip())
+d = {}
+for index,i in enumerate(l):
+    c = l.count(i)
+    d[i] = c
+print(d)
+
+#copy-past code
+plt.bar(list(d.keys()), d.values(), color='g')
+plt.show()
+#ends here
